@@ -1,3 +1,11 @@
+## FORK
+Smoth added by replacing scrollToBottom code with this:
+```
+el.scroll({
+    top: el.scrollHeight,
+    behavior: 'smooth'
+  });
+ ```
 # vue-chat-scroll
 
 A plugin for Vue.js 2 that scrolls to the bottom of an element when new content is added within said element.
