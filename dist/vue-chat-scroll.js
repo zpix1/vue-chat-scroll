@@ -12,7 +12,10 @@
  */
 
 var scrollToBottom = function scrollToBottom(el) {
-    el.scrollTop = el.scrollHeight;
+    el.scroll({
+    top: el.scrollHeight,
+    behavior: 'smooth'
+  });
 };
 
 var vChatScroll = {
