@@ -1,5 +1,5 @@
 ## FORK
-Smoth added by replacing scrollToBottom code with this:
+Added smoothness by replacing the following code:
 ```
 el.scroll({
     top: el.scrollHeight,
